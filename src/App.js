@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Counter from "./Counter";
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <Counter text="1st row" />
+        <Counter text="2nd row" />
+        <Counter text="3rd row" />
       </header>
     </div>
   );
