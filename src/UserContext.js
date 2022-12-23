@@ -15,4 +15,5 @@ const users = [
 
 // const users = [];
 
+// tạo một React Context với hàm React.createContext()
 export const UserContext = React.createContext(users);

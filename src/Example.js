@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { UserProfile } from "./UserProfile";
 import { UserContext } from "./UserContext";
 function Example() {
-  const [count, setCount] = useState(0); // sử dụng useState để thay đổi giá trị biến count
+  const [count, setCount] = useState(0); // sử dụng useState để quản lí state trong react, hàm useState trả về
+  // 1 mảng gồm 2 phần tử, phần tử đầu tiên là khởi tạo state, phần tử thứ hai là hàm để cập nhật state
   // hàm useState này được dùng trong function component của react để thay cho việc thay đổi
   // giá trị của state trong constructor khi sử dụng class component
 
